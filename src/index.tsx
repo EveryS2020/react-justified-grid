@@ -5,13 +5,13 @@ import {
   State,
   DefaultProps,
   ProcessedImage,
-  PropsWithDefaults
+  PropsWithDefaults 
 } from './interfaces';
 import { curateImageList } from './utils';
 
 class JustifiedGrid extends React.Component<Props, State> {
   private wrapperEl: HTMLDivElement | null;
-  private debounceResizeHandler: any;
+  private debounceResizeHandler: any; 
   static readonly displayName = 'JustifiedGrid';
   public static defaultProps: DefaultProps = {
     gutter: 1,
